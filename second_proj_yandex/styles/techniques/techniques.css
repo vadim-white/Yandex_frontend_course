@@ -1,0 +1,9 @@
+@import url(../cards/cards.css);
+
+.techniques {
+    display: flex;
+    flex-direction: column;
+    padding: 100px;
+    width: 80%;
+    margin: 0 auto;
+}

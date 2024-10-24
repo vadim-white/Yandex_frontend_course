@@ -1,0 +1,20 @@
+@import url(../rotation/rotation.css);
+
+.kaufman {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    background-color: #1f1f1f;
+    overflow: hidden;
+    z-index: -1;
+  }
+
+  .kaufman__triangle {
+    position: absolute;
+    right: -210px;
+    z-index: -2;
+    width: 877px;
+    height: 877px;
+    animation: rotation 20s linear infinite;
+  }
+

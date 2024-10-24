@@ -1,0 +1,57 @@
+@import url(../rotation/rotation.css);
+
+.header {
+    height: 100vh;
+    min-height: 600px;
+    max-height: 756px;
+    display: flex;
+    position: relative;
+    background-color: #f2f2f2;
+    overflow: hidden;
+}
+
+.header__title {
+    align-self: center;
+    margin: 64px;
+    width: 730px;
+    line-height: 96px;
+    font-size: 102px;
+    font-weight: 600;
+    z-index: 3;
+}
+
+.header__subtitle {
+    position: absolute;
+    width: 389px;
+    bottom: 0;
+    margin: 30px 64px;
+    line-height: 25px;
+    font-size: 18px;
+    font-weight: normal;
+    z-index: 3;
+}
+
+.header__link {
+    text-decoration: none;
+}
+
+.header__main-illustration {
+    position: absolute;
+    width: 765px;
+    height: 608px;
+    bottom: 0;
+    right: 0;
+    z-index: 2;
+
+}
+
+.header__square-pic {
+    position: absolute;
+    margin-top: 64px;
+    right: 0;
+    height: 568px;
+    width: 568px;
+    background-color: #2f80ed;
+    z-index: 1;
+    animation: rotation 20s linear infinite;
+}
